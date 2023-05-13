@@ -1,2 +1,2 @@
 # Curso-de-PHP
-Curso de PHP moderno
+Curso de PHP moderno do Curso em Vídeo.
