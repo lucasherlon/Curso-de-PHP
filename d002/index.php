@@ -15,7 +15,7 @@
         <?php
             echo "<p>Gerando um número aleatório entre 0 e 100...</p>";
             $aleat = rand(0,100);
-            echo "<p>O número gerado foi <strong>$aleat</strong></p>"
+            echo "<p>O número gerado foi <strong>$aleat</strong></p>";
         ?>
         <button id="gerador">Gerar outro número</button>
     </main>
