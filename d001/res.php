@@ -18,7 +18,7 @@
             $antecessor = $num - 1;
             echo "<p>O número escolhido foi <strong>$num</strong></p>";
             echo "<p>O seu antecessor é $antecessor</p>";
-            echo "<p>O seu sucesso é $sucessor</p>"
+            echo "<p>O seu sucessor é $sucessor</p>"
         ?>
         <button>
             <a href="index.html">Voltar</a>
