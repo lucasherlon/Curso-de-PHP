@@ -1,2 +1,2 @@
 # Curso-de-PHP
-Curso de PHP moderno do Curso em Vídeo.
+Repositório destinado a acompanhar as aulas e os exercícios do curso de PHP moderno do Curso em Vídeo.
