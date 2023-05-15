@@ -13,12 +13,12 @@
     </header>
     <main>
         <?php
-        $val = $_GET["valor"] ?? 0.0;
-        $dolar = $val / 4.89;
-        $f_val = number_format($val, 2, ",", ".");
-        $f_dol = number_format($dolar, 2, ",", ".");
-        echo "<p>Seus R$ $f_val equivalem a <strong>US$ $f_dol</strong></p>";
-        echo "<p>*Cotação fixa de R$ 4,89 informada diretamente no código</p>"
+            $val = $_GET["valor"] ?? 0.0;
+            $dolar = $val / 4.89;
+            $f_val = number_format($val, 2, ",", ".");
+            $f_dol = number_format($dolar, 2, ",", ".");
+            echo "<p>Seus R$ $f_val equivalem a <strong>US$ $f_dol</strong></p>";
+            echo "<p>*Cotação fixa de R$ 4,89 informada diretamente no código</p>"
         ?>
         <button><a href="index.html">Voltar</a></button>
     </main>
