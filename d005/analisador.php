@@ -11,16 +11,16 @@
     <main>
         <h1>Analisador de número real</h1>
         <?php
-        $val = $_GET["valor"];
-        $inteiro = floor($val);
-        $dec = $val - $inteiro;
-        $dec = number_format($dec, 2, ",", ".");
-        $val = number_format($val, 2, ",", ".");
-        echo "<p>Analisando o número <strong>$val</strong> informado pelo usuário</p>";
-        echo "<ul>";
-        echo "<li> A parte inteira do número é $inteiro";
-        echo "<li> A parte fracionária do número é $dec";
-        echo "</ul>";
+            $val = $_GET["valor"];
+            $inteiro = floor($val);
+            $dec = $val - $inteiro;
+            $dec = number_format($dec, 2, ",", ".");
+            $val = number_format($val, 2, ",", ".");
+            echo "<p>Analisando o número <strong>$val</strong> informado pelo usuário</p>";
+            echo "<ul>";
+            echo "<li> A parte inteira do número é $inteiro";
+            echo "<li> A parte fracionária do número é $dec";
+            echo "</ul>";
         ?>
         <button><a href="index.html">Voltar</a></button>
     </main>
