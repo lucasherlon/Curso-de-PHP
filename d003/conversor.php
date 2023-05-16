@@ -20,7 +20,7 @@
             echo "<p>Seus R$ $f_val equivalem a <strong>US$ $f_dol</strong></p>";
             echo "<p>*Cotação fixa de R$ 4,89 informada diretamente no código</p>"
         ?>
-        <button><a href="index.html">Voltar</a></button>
+        <button onclick="javascript:history.go(-1)">Voltar</button>
     </main>
 </body>
 </html>
