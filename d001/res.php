@@ -20,9 +20,7 @@
             echo "<p>O seu antecessor é $antecessor</p>";
             echo "<p>O seu sucessor é $sucessor</p>"
         ?>
-        <button>
-            <a href="index.html">Voltar</a>
-        </button>
+        <button onclick="javascript:history.go(-1)">Voltar</button>
     </main>
 </body>
 </html>
