@@ -22,7 +22,7 @@
             echo "<li> A parte fracionária do número é $dec";
             echo "</ul>";
         ?>
-        <button><a href="index.html">Voltar</a></button>
+        <button onclick="javascript:history.go(-1)">Voltar</button>
     </main>
 </body>
 </html>
