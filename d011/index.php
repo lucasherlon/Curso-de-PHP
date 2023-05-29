@@ -26,8 +26,8 @@
 		<h3>Resultado do reajuste</h3>
 		<?php
 			$precoFinal = $precoInicial * (1 + ($reajuste/100));
-			$precoInicial = number_format($precoInicial, 2, ".", ",");
-			$precoFinal = number_format($precoFinal, 2, ".", ",");
+			$precoInicial = number_format($precoInicial, 2, ",", ".");
+			$precoFinal = number_format($precoFinal, 2, ",", ".");
 			echo "<p>O produto que custava R$ $precoInicial, com <strong>$reajuste% de aumento</strong>, ";
 			echo "vai passa a custar <strong>R$ $precoFinal</strong> a partir de agora</p>"
 		?>
